@@ -2,11 +2,6 @@ package HW_Sem3;
 
 import java.util.Scanner;
 
-public class ProductNotFoundException extends Exception {
-    public ProductNotFoundException(int productId) {
-        super("Продукт с ID " + productId + " не найден.");
-    }
-}
 
 class Product {
     private String name;
